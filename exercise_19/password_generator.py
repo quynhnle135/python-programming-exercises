@@ -26,8 +26,3 @@ def generatePassword(length) -> str:
 
     random.shuffle(password)
     return "".join(password)
-
-
-
-
-
