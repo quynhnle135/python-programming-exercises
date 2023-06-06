@@ -18,5 +18,6 @@ class TestChangeMaker(unittest.TestCase):
     def test_5(self):
         self.assertEqual(make_change(125), {'quarters': 5})
 
+
 if __name__ == "__main__":
     unittest.main()
